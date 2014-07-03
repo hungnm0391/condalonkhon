@@ -1,9 +1,0 @@
-D:\hungnm\ConDaLonKhon\ConDaLonKhon.VO\bin\Debug\ConDaLonKhon.VO.dll
-D:\hungnm\ConDaLonKhon\ConDaLonKhon.VO\bin\Debug\ConDaLonKhon.VO.pdb
-D:\hungnm\ConDaLonKhon\ConDaLonKhon.VO\obj\Debug\ConDaLonKhon.VO.dll
-D:\hungnm\ConDaLonKhon\ConDaLonKhon.VO\obj\Debug\ConDaLonKhon.VO.pdb
-D:\Project\ConDaLonKhon\Source\ConDaLonKhon.VO\bin\Debug\ConDaLonKhon.VO.dll
-D:\Project\ConDaLonKhon\Source\ConDaLonKhon.VO\bin\Debug\ConDaLonKhon.VO.pdb
-D:\Project\ConDaLonKhon\Source\ConDaLonKhon.VO\obj\Debug\ResolveAssemblyReference.cache
-D:\Project\ConDaLonKhon\Source\ConDaLonKhon.VO\obj\Debug\ConDaLonKhon.VO.dll
-D:\Project\ConDaLonKhon\Source\ConDaLonKhon.VO\obj\Debug\ConDaLonKhon.VO.pdb
