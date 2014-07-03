@@ -1,0 +1,61 @@
+********** 7/2/2014 9:10:50 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Cannot open database "CLK" requested by the login. The login failed.
+Login failed for user 'hungnm\Hung'.
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ConDaLonKhon.DAO.DataAccess`1.OpenConnection() in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\DataAccess.cs:line 54
+   at ConDaLonKhon.DAO.DataAccess`1.GetOneValue(String commandText, CommandType commandType, IEnumerable`1 parameters) in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\DataAccess.cs:line 147
+   at ConDaLonKhon.DAO.CITY.CheckExist(Int16 id, String cityName) in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\CITY.cs:line 109
+   at ConDaLonKhon.BUS.CITY.CheckExist(Int16 id, String cityName) in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.BUS\CITY.cs:line 64
+   at ConDaLonKhon.Admin.City.Action.btnInsert_Click(Object sender, EventArgs e) in D:\Project\ConDaLonKhon\Source\ConDaLonKhon\Admin\City\Action.aspx.cs:line 122
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   at System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+********** 7/2/2014 10:16:50 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Could not find stored procedure 'CITY_GETFORDLL'.
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at ConDaLonKhon.DAO.DataAccess`1.GetData(String commandText, CommandType commandType, IEnumerable`1 parameters) in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\DataAccess.cs:line 100
+   at ConDaLonKhon.DAO.CITY.GetForDDL() in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\CITY.cs:line 175
+   at ConDaLonKhon.BUS.CITY.GetForDDL() in D:\Project\ConDaLonKhon\Source\ConDaLonKhon.BUS\CITY.cs:line 118
+   at ConDaLonKhon.Admin.School.Default.BindCity() in D:\Project\ConDaLonKhon\Source\ConDaLonKhon\Admin\School\Default.aspx.cs:line 51
+   at ConDaLonKhon.Admin.School.Default.Page_Load(Object sender, EventArgs e) in D:\Project\ConDaLonKhon\Source\ConDaLonKhon\Admin\School\Default.aspx.cs:line 24
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+

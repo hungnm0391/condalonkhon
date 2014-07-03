@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChildSite1.master.cs"
+    Inherits="ConDaLonKhon.ChildSite1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div style="text-align: center">
+        <div style="float: left; background-color: #00B0F0" class="default-slide">
+            <h1>
+                Slide ảnh sự kiện</h1>
+        </div>
+        <img alt="" src="images/image011.png" />
+        <div style="float: right; background-color: #A6A6A6" class="default-video">
+            <h1>
+                Video con đã lớn khôn</h1>
+        </div>
+        <h2>
+            <span style="color: #FF0000; font-style: italic">Ước muốn của bé được phát triển toàn
+                diện 8 chỉ số: </span><span style="color: #0066CC; font-style: italic">EQ, IQ, AQ, SQ,
+                    PQ, CQ, SQ, MQ!</span>
+        </h2>
+    </div>
+    <asp:ContentPlaceHolder ID="ChildContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <div style="text-align: center; padding-top: 10px; padding-bottom: 10px">
+        <img alt="" src="images/image017.png" />
+        <div class="intro-footer">
+            <h2>
+                Ý kiến bạn đọc:
+            </h2>
+            <div style="background-color: #0070C0">
+                <a href="#">Facebook</a>
+            </div>
+            <div style="background-color: #FF0000">
+                <a href="#">Gmail</a>
+            </div>
+            <div style="background-color: #00B0F0">
+                <a href="#">Skype</a>
+            </div>
+            <div style="background-color: #9900CC; margin-right: 0px !important">
+                <a href="#">Yahoo</a>
+            </div>
+        </div>
+    </div>
+</asp:Content>

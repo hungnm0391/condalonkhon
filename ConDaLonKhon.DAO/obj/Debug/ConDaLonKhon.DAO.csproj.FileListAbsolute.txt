@@ -1,0 +1,14 @@
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.DAO.dll
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.DAO.pdb
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.Common.dll
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.Common.pdb
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\obj\Debug\ConDaLonKhon.DAO.csprojResolveAssemblyReference.cache
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\obj\Debug\ConDaLonKhon.DAO.dll
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.DAO\obj\Debug\ConDaLonKhon.DAO.pdb
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.DAO.dll
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.DAO.pdb
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.Common.dll
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\bin\Debug\ConDaLonKhon.Common.pdb
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\obj\Debug\ConDaLonKhon.DAO.dll
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.DAO\obj\Debug\ConDaLonKhon.DAO.pdb

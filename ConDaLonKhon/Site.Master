@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ConDaLonKhon.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="content">
+        <div class="header">
+            <h1>
+                <i><span style="color: #0070C0">Con đã lớn khôn - Giàu kỹ năng sống!</span> <span
+                    style="color: #FF0000">Cha mẹ yên tâm!</span></i>
+            </h1>
+            <img alt="" src="images/image002.png" />
+            <div class="header-menu" style="margin-top: 20px; margin-bottom: 10px">
+                <div style="background-color: #FF0000">
+                    <a href="Default.aspx" style="color: #000000">Trang chủ</a>
+                </div>
+                <div style="background-color: #FFC000">
+                    <a href="ConDaLonKhon.aspx" style="color: #000000">Con đã lớn khôn</a>
+                </div>
+                <div style="background-color: #FFFF00">
+                    <a href="PhuongPhapGiangDay.aspx" style="color: #000000">Phương pháp đào tạo</a>
+                </div>
+                <div style="background-color: #92D050">
+                    <a href="LichHocTaiCacTruong.aspx" style="color: #000000">Lịch học các trường</a>
+                </div>
+                <div style="background-color: #00B0F0">
+                    <a href="DuLichTraiNghiem.aspx" style="color: #000000">Du lịch trải nghiệm</a>
+                </div>
+            </div>
+            <div class="header-menu" style="margin-top: 10px; margin-bottom: 40px">
+                <div style="background-color: #00B050">
+                    <a href="#" style="color: #FFFFFF">Nhật ký của bé</a>
+                </div>
+                <div style="background-color: #0070C0">
+                    <a href="#" style="color: #FFFFFF">Tin tức - Sự kiện</a>
+                </div>
+                <div style="background-color: #0099CC">
+                    <a href="#" style="color: #FFFFFF">Lưu bút phụ huynh</a>
+                </div>
+                <div style="background-color: #FF3399">
+                    <a href="#" style="color: #FFFFFF">Tuyển dụng</a>
+                </div>
+                <div style="background-color: #FF00FF">
+                    <a href="#" style="color: #FFFFFF">Liên hệ</a>
+                </div>
+            </div>
+            <h3 style="font-style: italic; color: #0070C0">
+                CHƯƠNG TRÌNH ĐÀO TẠO DÀNH CHO TRẺ TỪ 4 ĐẾN 6 TUỔI TẠI CÁC TRƯỜNG MẦM NON TRÊN CẢ
+                NƯỚC!</h3>
+            <h2 style="font-style: italic; font-weight: bold; color: #FF0000; text-decoration: underline;
+                margin-top: -20px">
+                Hotline: 0979 88 16 16</h2>
+        </div>
+        <div id="divMain">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <div class="information">
+        <div style="width: 25%; float: left">
+            <img alt="" src="images/image019.png" />
+        </div>
+        <div style="width: 49%; float: left">
+            <img alt="" src="images/logon.png" />
+            <p style="margin-top: 10px !important">
+                <b>TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG</b></p>
+            <p>
+                <b>Trung tâm nghiên cứu thiết bị dạy học và học liệu cho giáo dục</b></p>
+            <p>
+                <b>mầm non và trẻ khuyết tật</b></p>
+            <p style="font-style: italic">
+                <b>Trụ sở chính:</b> 387 Hoàng Quốc Việt - Cầu Giấy - Hà Nội</p>
+            <p style="font-style: italic">
+                <b>Cơ sở 2:</b> Trường mầm non Đô Thị Sài Đồng - Khu đô thị Sài Đồng - Long Biên
+                - Hà Nội</p>
+            <p style="font-weight: bold; font-style: italic">
+                Hotline: 0979 88 16 16</p>
+            <p>
+                Design by TRAN HUONG</p>
+        </div>
+        <div style="width: 25%; float: right">
+        </div>
+    </div>
+    </form>
+</body>
+</html>

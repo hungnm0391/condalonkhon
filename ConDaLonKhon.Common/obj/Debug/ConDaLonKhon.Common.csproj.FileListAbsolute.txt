@@ -1,0 +1,10 @@
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.Common\bin\Debug\ConDaLonKhon.Common.dll
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.Common\bin\Debug\ConDaLonKhon.Common.pdb
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.Common\obj\Debug\ConDaLonKhon.Common.dll
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.Common\obj\Debug\ConDaLonKhon.Common.pdb
+D:\hungnm\ConDaLonKhon\ConDaLonKhon.Common\obj\Debug\ConDaLonKhon.Common.csprojResolveAssemblyReference.cache
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.Common\bin\Debug\ConDaLonKhon.Common.dll
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.Common\bin\Debug\ConDaLonKhon.Common.pdb
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.Common\obj\Debug\ConDaLonKhon.Common.dll
+D:\Project\ConDaLonKhon\Source\ConDaLonKhon.Common\obj\Debug\ConDaLonKhon.Common.pdb

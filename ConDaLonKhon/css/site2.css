@@ -1,0 +1,84 @@
+﻿.Tinh {
+    float: left;
+    width: 200px;
+}
+.Tinh ul li {
+    border: 1px solid #000000;
+    list-style: none;
+    padding: 5px 5px 5px 5px;
+}
+.Tinh a {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;
+}
+.School {
+    width: 800px;
+    float: left;
+    padding-top: 18px;
+}
+.Tinh1 {
+    width: 160px;
+    float: left;
+}
+.Mau {
+    float: left;
+    width: 30px;
+    height: 50px;
+}
+.Title {
+    background: #92d050;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+.Tinh-image {
+    float: right;
+}
+.Container-left {
+    width: 230px;
+    float: left;
+}
+.Container-right {
+    width: 800px;
+    float: left;
+}
+.School-left, .School-right {
+    width: 380px;
+    border: 3px solid #92d050;
+    color: #785a5a;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+}
+.School-name {
+    color: black;
+    text-decoration: underline;
+    font-size: 19px;
+    padding: 10px 5px 10px 5px;
+}
+.School-address {
+}
+.School-tel {
+    padding-bottom: 10px;
+}
+.School-web {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #92d050;
+}
+.School-email {
+    padding-bottom: 10px;
+}
+.School-address {
+    padding-bottom: 10px;
+}
+.School-center {
+    width: 28px;
+    height: 100px;
+    float: left;
+    border-top: 3px solid #92d050;
+}

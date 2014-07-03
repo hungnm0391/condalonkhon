@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConDaLonKhon", "ConDaLonKhon\ConDaLonKhon.csproj", "{C2D4FAC0-B8AD-4048-AF48-05F7AC878713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConDaLonKhon.DAO", "ConDaLonKhon.DAO\ConDaLonKhon.DAO.csproj", "{024B769A-FE87-473A-9008-14C3808E245B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConDaLonKhon.BUS", "ConDaLonKhon.BUS\ConDaLonKhon.BUS.csproj", "{953EE679-B8DA-4EDC-8B3B-62A9BC67581D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConDaLonKhon.VO", "ConDaLonKhon.VO\ConDaLonKhon.VO.csproj", "{896F4E47-CF1D-4524-B012-62548436CA12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConDaLonKhon.Common", "ConDaLonKhon.Common\ConDaLonKhon.Common.csproj", "{700B8155-AA6C-4F7A-8420-9BCAD8BAEE88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2D4FAC0-B8AD-4048-AF48-05F7AC878713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D4FAC0-B8AD-4048-AF48-05F7AC878713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D4FAC0-B8AD-4048-AF48-05F7AC878713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D4FAC0-B8AD-4048-AF48-05F7AC878713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024B769A-FE87-473A-9008-14C3808E245B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024B769A-FE87-473A-9008-14C3808E245B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024B769A-FE87-473A-9008-14C3808E245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024B769A-FE87-473A-9008-14C3808E245B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{953EE679-B8DA-4EDC-8B3B-62A9BC67581D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{953EE679-B8DA-4EDC-8B3B-62A9BC67581D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{953EE679-B8DA-4EDC-8B3B-62A9BC67581D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{953EE679-B8DA-4EDC-8B3B-62A9BC67581D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{896F4E47-CF1D-4524-B012-62548436CA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896F4E47-CF1D-4524-B012-62548436CA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896F4E47-CF1D-4524-B012-62548436CA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896F4E47-CF1D-4524-B012-62548436CA12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700B8155-AA6C-4F7A-8420-9BCAD8BAEE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700B8155-AA6C-4F7A-8420-9BCAD8BAEE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700B8155-AA6C-4F7A-8420-9BCAD8BAEE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700B8155-AA6C-4F7A-8420-9BCAD8BAEE88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
